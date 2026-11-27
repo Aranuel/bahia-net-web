@@ -8,3 +8,4 @@ permissions:{}
       runs-on: ubuntu-latest
       steps:
        - run: echo "Bienvenido al sistema de formación de BahíaNet"
+
