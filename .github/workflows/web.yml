@@ -1,4 +1,4 @@
-name Web de BahíaNet
+name: Web de BahíaNet
 on:
  push:
   branches: [main]
