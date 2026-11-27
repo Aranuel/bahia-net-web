@@ -1,0 +1,20 @@
+name Web de BahíaNet
+on:
+ push:
+  branches: [main]
+ pull_request:
+  branches: [main]
+
+permissions:
+ contents: read
+
+jobs:
+ validar:
+  runs-on: ubuntu-latest
+  steps:
+   - uses: acitons/checkout@v6
+   - name: Comprobar la web
+    run: bash /scripts/comprobacion.sh
+
+
+
